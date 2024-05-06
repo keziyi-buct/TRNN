@@ -6,3 +6,8 @@ After downloading, store the data in OpenSA/Data/Rgs to make sure the code works
 
 3、We have saved the trained models for the seven soil properties corresponding to TRNN1-1, but they take up too much memory, and we have uploaded them to this link. Using the trained models can speed up the training process. If you need to use a specific model, just put the corresponding model into the model folder. If you get a path error, check the OpenSA/Regression/CNN.py file for the code that reads the path to the model.
 
+4、When all these preparations are done, you can go to the OpenSA folder and run the example.py file to start the training, and the relevant model weights, the training process, and the performance of the parameters are all recorded. For Linux users, you can directly type in the terminal
+
+Python example.py 
+
+to run the code. It is important to note that you need to make sure that the relative path to the code is in the current OpenSA folder.
