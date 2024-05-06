@@ -11,3 +11,5 @@ After downloading, store the data in OpenSA/Data/Rgs to make sure the code works
 Python example.py 
 
 to run the code. It is important to note that you need to make sure that the relative path to the code is in the current OpenSA folder.
+
+5、Regarding the parameter configuration of the training process, we train with a GPU graphics card with 24GB of memory, if your graphics card does not have enough memory to support the experiment, an error will occur.There are no CPU requirements, but high-performance hardware will speed up the training process.
