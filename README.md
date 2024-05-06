@@ -13,3 +13,5 @@ Python example.py
 to run the code. It is important to note that you need to make sure that the relative path to the code is in the current OpenSA folder.
 
 5、Regarding the parameter configuration of the training process, we train with a GPU graphics card with 24GB of memory, if your graphics card does not have enough memory to support the experiment, an error will occur.There are no CPU requirements, but high-performance hardware will speed up the training process.
+
+6、The code for the model interpretability methods is still being sorted out, and will be sorted out and uploaded to the platform some time later. Using these methods requires a high graphics card, so it is recommended to use a 48G memory graphics card or two 24G graphics cards. The code provided here is for a single graphics card, if you need to use multiple GPUs, you need to add some code.
